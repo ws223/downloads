@@ -28,10 +28,17 @@
         .download-buttons button:hover {
             background-color: #45a049;
         }
+	/* 让图片稍微往左移 */
+	.main-title img {
+		margin-left: -18px;  /* 向左移动18像素 */
+	}
     </style>
 </head>
 <body>
-    <h1>欢迎下载我们的软件</h1>
+    <h1 class="main-title hide">
+	<img src="images/login.png" alt="DQ Logo" width="200" height="100">
+    </h1>
+    <h2>欢迎下载我们的软件</h2>
     <h2>(如需下载直接点击即可)</h2>
     <div class="download-buttons">
         <button onclick="window.location.href='网页定时刷新小工具.zip'">网页定时刷新小工具</button>
